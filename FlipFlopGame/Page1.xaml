@@ -1,0 +1,19 @@
+﻿<Page x:Class="FlipFlopGame.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1000"
+	Title="Page1">
+    <Page.Background>
+        <ImageBrush ImageSource=" images/b2.jpg"/>
+    </Page.Background>
+    <Grid>
+        <Button x:Name="btn_play" Content="Play" HorizontalAlignment="Left" VerticalAlignment="Top" Width="354" Margin="359,418,0,0" RenderTransformOrigin="0.61,0.653" FontFamily="Ravie" FontSize="50" BorderThickness="3,3,2,2" Background="#FFFF0A0A" BorderBrush="#FF0F0F0F" Foreground="#FFFFEE00" FontWeight="Bold" Height="106" Click="Btn_play_Click"
+                />
+        <Button x:Name="btn_message" Content="Play" HorizontalAlignment="Left" VerticalAlignment="Top" Width="899" Margin="50,156,0,0" RenderTransformOrigin="0.61,0.653" FontFamily="Ravie" FontSize="50" BorderThickness="3,3,2,2" Background="#FFFF0A0A" BorderBrush="#FF0F0F0F" Foreground="#FFFFEE00" FontWeight="Bold" Height="158" Click="Btn_play_Click" Visibility="Hidden"
+                />
+
+    </Grid>
+</Page>
